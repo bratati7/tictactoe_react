@@ -1,0 +1,75 @@
+.gameModeDiv {
+  position: relative;
+  margin-top: 10vw;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  align-items: center;
+  justify-content: center;
+}
+.chooseGameMode {
+  position: relative;
+  color: aliceblue;
+  font-size: 2vw;
+  font-weight: 600;
+}
+.pvpBtn {
+  position: relative;
+  height: 3.6vw;
+  width: 15vw;
+  border-radius: 0.5vw;
+  background-color: rgba(108, 108, 255, 0.63);
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1vw;
+  margin: 0.5vw;
+}
+.pvpBtn:hover {
+  background-color: rgb(108, 108, 255);
+}
+
+.pvcBtn {
+  position: relative;
+  height: 3.6vw;
+  width: 15vw;
+  border-radius: 0.5vw;
+  background-color: rgba(108, 255, 180, 0.63);
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1vw;
+  margin: 0.5vw;
+}
+.pvcBtn:hover {
+  background-color: rgb(108, 255, 180);
+}
+
+@media only screen and (max-width: 600px) {
+  .gameModeDiv {
+    position: relative;
+    width: 100%;
+    margin-top: 30vw;
+  }
+  .chooseGameMode {
+    position: relative;
+    font-size: 6vw;
+  }
+  .pvpBtn {
+    position: relative;
+    height: 10vw;
+    width: 30vw;
+    font-size: 3vw;
+    border-radius: 1vw;
+    margin: 3vw;
+  }
+  .pvcBtn {
+    position: relative;
+    height: 10vw;
+    width: 30vw;
+    font-size: 3vw;
+    border-radius: 1vw;
+    margin: 3vw;
+  }
+}

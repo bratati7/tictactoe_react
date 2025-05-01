@@ -1,0 +1,72 @@
+.mainDiv {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.gameName {
+  position: relative;
+  font-size: 5vw;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.63);
+}
+.gameStatus {
+  position: relative;
+  font-size: 2.5vw;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+.rstBtn {
+  position: relative;
+  height: 3.6vw;
+  width: 15vw;
+  border-radius: 0.5vw;
+  background-color: rgba(108, 108, 255, 0.63);
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1vw;
+  margin: 0.5vw;
+  color: aliceblue;
+}
+.rstBtn:hover {
+  background-color: rgb(108, 108, 255);
+}
+.backBtn {
+  position: relative;
+  height: 3.6vw;
+  width: 15vw;
+  border-radius: 0.5vw;
+  background-color: rgba(108, 255, 180, 0.63);
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1vw;
+  margin: 0.5vw;
+  color: aliceblue;
+}
+.backBtn:hover {
+  background-color: rgb(108, 255, 180);
+}
+
+@media only screen and (max-width: 600px) {
+  .gameName {
+    position: relative;
+    font-size: 15vw;
+    margin-top: 20vw;
+  }
+  .gameStatus {
+    position: relative;
+    font-size: 8vw;
+    margin-bottom: 3vw;
+  }
+  .rstBtn,
+  .backBtn {
+    position: relative;
+    height: 10vw;
+    width: 31vw;
+    font-size: 3vw;
+    border-radius: 1vw;
+  }
+}
