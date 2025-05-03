@@ -59,7 +59,7 @@ export default function Home() {
       ) : (
         <>
           <p className={Styles.gameStatus}>
-            {winner ? winner=='Draw' ? `Result: Draw!` : `Result: ${winner} has won the game!` : `Next Turn: ${isXNext ? 'x' : 'o'}`}
+            {winner ? winner=='Draw' ? `Result: Draw!` : `Result: ${winner} Wins!!!` : `Next Turn: ${isXNext ? 'x' : 'o'}`}
           </p>
           <TicTacToeBoard board={board} onCellClick={handleCellClick} />
           <div className="mt-6 flex gap-4">
